@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@color/lightblue"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/regist_title"
+        android:layout_above="@+id/registFrame"
+        android:layout_alignParentTop="true"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="40sp">
+
+    </TextView>
+
+
+    <LinearLayout
+        android:layout_centerVertical="true"
+        android:id="@+id/registFrame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:background="@drawable/circle_corner"
+            android:id="@+id/ed_username_regist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:singleLine="true"
+            android:drawableLeft="@drawable/user"
+            android:drawablePadding="@dimen/size10dp"
+            android:hint="@string/hint_username"
+            android:inputType="text"
+            android:padding="@dimen/size10dp"></EditText>
+
+        <EditText
+            android:id="@+id/ed_passwd_regist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:singleLine="true"
+            android:background="@drawable/circle_corner"
+            android:drawableLeft="@drawable/key"
+            android:drawablePadding="@dimen/size10dp"
+            android:hint="@string/hint_passwd"
+            android:padding="@dimen/size10dp"
+            android:inputType="textPassword">
+
+        </EditText>
+
+        <RadioGroup
+            android:id="@+id/sex_regist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/male"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:checked="true"
+                android:text="@string/male"></RadioButton>
+
+            <RadioButton
+                android:id="@+id/female"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:text="@string/female" android:layout_width="match_parent"></RadioButton>
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/ed_date_of_birth_regist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/circle_corner"
+            android:drawableLeft="@drawable/schedule"
+            android:drawablePadding="@dimen/size10dp"
+            android:singleLine="true"
+            android:hint="@string/hint_date_of_birth"
+            android:inputType="datetime"
+            android:padding="@dimen/size10dp"></EditText>
+
+        <EditText
+            android:id="@+id/ed_identification_regist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/circle_corner"
+            android:drawableLeft="@drawable/id_card"
+            android:drawablePadding="@dimen/size10dp"
+            android:hint="@string/hint_id_card"
+            android:singleLine="true"
+            android:inputType="number"
+            android:maxLength="11"
+            android:padding="@dimen/size10dp"></EditText>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/bnt_submit_regist"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/size10dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/green4"
+                android:text="@string/submit"></Button>
+
+            <Button
+                android:id="@+id/btn_cancel_regist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/size10dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/darkgolden3"
+                android:text="@string/exit">
+
+            </Button>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

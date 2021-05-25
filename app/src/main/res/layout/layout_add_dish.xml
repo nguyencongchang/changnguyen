@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent" android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#EDCDF3"
+    android:orientation="vertical">
+    <TextView
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:layout_margin="20dp"
+        android:layout_width="wrap_content"
+        android:text="@string/add_dish"
+        android:textColor="#0729E4"
+        android:textSize="23sp"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <EditText
+                android:id="@+id/ed_dish_name"
+                android:hint="@string/dish_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </EditText>
+            <EditText
+                android:id="@+id/ed_price"
+                android:hint="@string/price"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </EditText>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/img_dish"
+                android:src="@drawable/defaultimg"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            </ImageView>
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Spinner
+            android:id="@+id/spin_cat"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </Spinner>
+        <ImageView
+            android:id="@+id/img_add_cat"
+            android:src="@drawable/plus"
+            android:layout_width="50dp"
+            android:layout_height="50dp">
+        </ImageView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:background="#8D9CF1"
+            android:id="@+id/btn_ok_add_dish"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:text="@string/confirm"
+            android:layout_height="wrap_content">
+        </Button>
+        <Button
+            android:background="#8D9CF1"
+            android:id="@+id/btn_cancel_add_dish"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:text="@string/close"
+            android:layout_height="wrap_content">
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>

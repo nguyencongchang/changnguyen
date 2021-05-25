@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent" android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+    <EditText
+        android:id="@+id/ed_desk_name_modify"
+        android:layout_width="match_parent"
+        android:hint="@string/desk_name"
+        android:layout_height="wrap_content">
+
+    </EditText>
+    <Button
+        android:background="#909EEA"
+        android:id="@+id/btn_ok_modify_desk"
+        android:layout_gravity="center"
+        android:text="@string/confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </Button>
+
+
+</LinearLayout>

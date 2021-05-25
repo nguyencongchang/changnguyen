@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Restaurant</string>
+    <string name="hint_username">Tên đăng nhập</string>
+    <string name="hint_passwd">Mật khẩu</string>
+    <string name="male">Nam</string>
+    <string name="female">Nữ</string>
+    <string name="hint_id_card">Căn cước công dân</string>
+    <string name="hint_date_of_birth">Ngày sinh</string>
+    <string name="regist_title">Đăng ký</string>
+    <string name="alert_username">Username field is require!</string>
+    <string name="alert_password">Password field is require!</string>
+    <string name="success">Thành công!</string>
+    <string name="failed">Thất bại!</string>
+    <string name="submit">Gửi</string>
+    <string name="login">Đăng nhập</string>
+    <string name="regist">Đăng ký</string>
+    <string name="home">Trang chủ</string>
+    <string name="nemu">Thực đơn</string>
+    <string name="staff">Nhân viên</string>
+    <string name="statistical">Thống kê</string>
+    <string name="setting">Cài đặt</string>
+    <string name="open">Mở</string>
+    <string name="close">Đóng</string>
+    <string name="logout">Đăng xuất</string>
+    <string name="exit">Hủy</string>
+    <string name="add_desk">Thêm bàn ăn</string>
+    <string name="add_dish">Thêm món ăn</string>
+    <string name="desk_name">Tên bàn </string>
+    <string name="confirm">Đồng ý</string>
+    <string name="dish_name">Tên món ăn</string>
+    <string name="price">Giá tiền</string>
+    <string name="cat_name">Tên loại</string>
+    <string name="empty_warning">Không đước bỏ trống</string>
+    <string name="amount">Số lượng</string>
+    <string name="sum">Tổng</string>
+
+
+
+
+
+
+
+
+</resources>

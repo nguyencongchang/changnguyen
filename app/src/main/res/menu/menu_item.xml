@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/item_add_desk"
+        android:title="@string/add_desk">
+    </item>
+    <item android:id="@+id/item_add_dish"
+        android:title="@string/add_dish">
+    </item>
+    <item android:id="@+id/item_add_staff"
+        android:title="Thêm"
+        />
+</menu>

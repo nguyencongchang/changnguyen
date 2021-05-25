@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.restaurant">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+
+        <activity android:name=".LoginActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".RegistActivity">
+        </activity>
+        <activity
+            android:name=".AddDishActivity">
+        </activity>
+
+        <activity
+            android:name=".HomeActivity">
+        </activity>
+        <activity
+            android:theme="@style/PopUpTheme"
+            android:name=".AddDeskActivity">
+
+        </activity>
+        <activity
+            android:theme="@style/PopUpTheme"
+            android:name=".AddCategoryActivity">
+
+        </activity>
+        <activity
+            android:theme="@style/PopUpTheme"
+            android:name=".PutAmountActivity">
+
+        </activity>
+        <activity
+            android:theme="@style/PopUpTheme"
+            android:name=".ModifyDeskAtivity">
+
+        </activity>
+        <activity
+            android:name=".PayActivity">
+        </activity>
+        <activity
+            android:name=".AddStaffActivity"/>
+
+    </application>
+
+</manifest>

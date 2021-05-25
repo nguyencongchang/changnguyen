@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_height="match_parent" android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:id="@+id/img_cat_custom"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size200dp">
+    </ImageView>
+    <FrameLayout
+        android:background="@color/LightCyan1tran"
+        android:layout_width="match_parent"
+        android:layout_gravity="bottom"
+        android:layout_height="50dp">
+        <TextView
+            android:id="@+id/txt_cat_custom"
+            android:text="@string/cat_name"
+            android:layout_gravity="center"
+            android:textSize="@dimen/size20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+    </FrameLayout>
+</FrameLayout>

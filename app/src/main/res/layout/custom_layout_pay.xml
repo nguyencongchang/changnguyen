@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent" android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_margin="@dimen/size15dp"
+        android:id="@+id/dish_name_pay_custom"
+        android:layout_weight="1"
+        android:textSize="20sp"
+        android:text="@string/dish_name"
+        android:textColor="#0529F4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </TextView>
+    <TextView
+        android:id="@+id/price_pay_custom"
+        android:layout_margin="@dimen/size15dp"
+        android:textColor="#0529F4"
+        android:textSize="20sp"
+        android:layout_weight="1"
+        android:text="@string/price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/amount_pay_custom"
+        android:textSize="20sp"
+        android:layout_margin="@dimen/size15dp"
+        android:textColor="#0529F4"
+        android:layout_weight="1"
+        android:text="@string/amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </TextView>
+</LinearLayout>

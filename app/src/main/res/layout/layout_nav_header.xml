@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_height="@dimen/size200dp"
+    android:layout_width="match_parent"
+    android:background="@drawable/header_background"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="@dimen/size100dp"
+        android:layout_height="@dimen/size100dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/size20dp"
+        android:src="@drawable/logo">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/txt_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/size10dp"
+        android:layout_below="@+id/logo"
+        android:textSize="@dimen/size20dp"
+        android:text="Tên nhân viên"
+        android:layout_alignStart="@+id/logo"
+        android:textStyle="bold"
+        android:layout_alignLeft="@+id/logo">
+
+    </TextView>
+
+</RelativeLayout>
